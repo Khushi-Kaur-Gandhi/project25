@@ -29,7 +29,7 @@ class paper
 			//add instructions
 			translate(paperpos.x,paperpos.y)
             imageMode(CENTER)
-            image(this.image,0,0,this.r,this)
+            image(this.image,0,0,this.r,this.r)
 
 			pop()
 			
